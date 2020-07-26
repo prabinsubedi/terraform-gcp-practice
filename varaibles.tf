@@ -4,6 +4,12 @@ variable "gcp_region" {
   description = "GCP region"
 }
 
+# Define GCP Zone 
+variable "gcp_zone" {
+  type        = string
+  description = "GCP zone"
+}
+
 # define GCP project name
 variable "gcp_project" {
   type        = string
